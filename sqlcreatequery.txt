@@ -1,0 +1,14 @@
+-- create a table AB
+CREATE TABLE AB (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  booking  INTEGER NOT NULL,
+  shiped INTEGER NOT NULL,
+  delivery INTEGER NOT NULL,
+);
+-- insert some values
+INSERT INTO AB VALUES (1,'AJAY',01-02-2000,02-012000,05-01-2000);
+INSERT INTO AB VALUES (2,'babu', 02-01-2000,03-01-2000,06-01-2000);
+INSERT INTO AB VALUES (3,'peruboina'03-01-2000,04-01-2000,07-01-2000);
+-- fetch some values
+SELECT * FROM AB;
